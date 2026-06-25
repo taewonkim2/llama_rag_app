@@ -1,0 +1,6 @@
+from llama_index.core import VectorStoreIndex,SimpleDirectoryReader,Settings
+from llama_index.llms.google_genai import GoogleGenAI
+from llama_index.embeddings.google_genai import GoogleGenAIEmbedding
+import os
+from dotenv import load_dotenv
+load_dotenv
